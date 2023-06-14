@@ -1,0 +1,12 @@
+ <div class="holder" *ngFor="let dataCollection of collectionData">
+    <p>{{dataCollection.title}}</p>
+    <div class="flex">
+    <ng-container  *ngFor="let collectionsType of dataCollection.collectionsType">
+        <app-type-collection routerLink="/detailsCollection/{{collectionsType.id}}"
+            [url]="collectionsType.url"
+            [collectionImg]="collectionsType.collectionImg"
+            [collectionName]="collectionsType.collectionName">
+        </app-type-collection>
+    </ng-container>
+</div>
+</div>

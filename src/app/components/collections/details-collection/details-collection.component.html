@@ -1,0 +1,40 @@
+ <app-header-holder></app-header-holder>
+ <div class="wrap">
+<div class="holder">
+  <ng-container *ngFor="let collection of collections">
+    
+    <div class="flex" *ngFor="let collectionItem of collection.collectionItems ">
+        
+          <div class="collectionApp" > 
+        <app-collection-items 
+        
+        [itemType]="collectionItem.itemType" 
+        [price]="collectionItem.price" 
+        [variantsItems]="collectionItem.variantsItems">
+        </app-collection-items>
+      
+        </div>
+      </div>
+      
+   
+    </ng-container>
+    
+ </div>
+ </div>
+ 
+  
+
+
+  
+  
+  
+
+  
+ 
+
+
+
+
+
+
+ 

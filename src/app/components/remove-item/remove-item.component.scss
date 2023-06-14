@@ -1,0 +1,14 @@
+@import '/src/app/scss/mixin';
+@import '/src/app/scss/variables';
+.flexEndIcon{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    .removeItem{
+        background-color:$color-red;
+        color: $color-white;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+    }
+}

@@ -1,0 +1,13 @@
+ <div class="quantityComponent"  >
+          <div >
+          <button class="btnIncrementDecrement" (click)="smanji(index)" [disabled]="quantity <= 1" >-</button>
+          <input type="text" [(ngModel)]="quantity" min="1"  disabled="true"  >
+          <button class="btnIncrementDecrement" (click)="povecaj(index)" >+</button>
+         
+        </div>
+          
+        <span>{{ price | currency:'EUR' }}</span>
+        
+        </div>
+
+      

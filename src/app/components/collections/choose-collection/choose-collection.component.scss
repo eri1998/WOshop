@@ -1,0 +1,15 @@
+@import '/src/app/scss/variables';
+@import '/src/app/scss/mixin';
+.holder{
+    background-color: $color-white;
+    padding: 60px;
+   p{
+    margin-bottom: 40px;
+   }
+}
+.flex{
+   @include flex-justifyContent;
+    padding: 0 5%;
+    width: 100%;
+    flex-wrap: wrap;
+}

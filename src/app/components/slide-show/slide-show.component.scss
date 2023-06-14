@@ -1,0 +1,75 @@
+@import '/src/app/scss/mixin';
+@import '/src/app/scss/variables';
+.slideShowHolder{
+  padding-top: 104.8px;
+  height: 810px;
+  img{
+    width: 100%;
+    height: 100%;
+    }
+    .caption {
+     @include flex-justifyContent;
+      position: absolute;
+       z-index: 1 ;
+      bottom:0px;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5); 
+      padding: 20px;
+      box-sizing: border-box;
+      color:$color-white;
+      a{
+          text-decoration: none;
+      }
+      .title{
+        display: flex;
+        width: 100%;
+        h2{
+          align-self: center;
+        }
+      }
+    }
+    
+ 
+  
+    
+}
+ .moreInfo{
+  display: flex;
+  padding: 6px 20px;
+  background-color:$color-white;
+  background-color: transparent;
+  border: 2px solid $color-black;
+  a{
+   
+    font-weight: bold;
+    color:$color-primaryOrange;
+   text-align: center;
+    
+  }
+ }
+    
+
+
+@media screen and (max-width:580px) {
+  .slideShowHolder{
+    height: 405px;
+    .caption{
+          bottom: 370px;
+          h2{
+            font-size: 16px;
+          }
+    }
+  }
+}
+@media screen and (max-width:445px) {
+  .slideShowHolder{
+  
+    .caption{
+        
+          h2{
+            font-size: 12px;
+          }
+    }
+  }
+}

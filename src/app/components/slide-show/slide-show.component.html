@@ -1,0 +1,16 @@
+<div class="slideShowHolder" (mouseenter)="stopSlideShow()" (mouseleave)="startSlideShow()">
+    <img [src]="jsonData && jsonData[currentIndex] && jsonData[currentIndex].image">
+    <div class="caption">
+      <div class="title">
+        <h2>{{jsonData && jsonData[currentIndex] && jsonData[currentIndex].text}}</h2>
+      </div>
+ 
+        <div class="moreInfo">
+            <a routerLink="/singleProduct/{{currentIndex}}">MORE INFO</a>
+       </div>
+    
+  
+ 
+  </div>
+  
+ 

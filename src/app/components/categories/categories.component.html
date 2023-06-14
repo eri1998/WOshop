@@ -1,0 +1,13 @@
+<h2>Filtriraj pretragu</h2>
+<div class="holder">
+  <div class="categoryDiv" *ngFor="let category of categoryIds">
+    <button (click)="emitFilteredProducts(category)">{{category}}</button>
+  </div>
+  <div class="priceFilter">
+    <label for="priceSearch">Price: </label>
+    <input type="number" name="priceSearch" [(ngModel)]="searchPrice" (keyup)="getProductsToShow()" (click)="getProductsToShow()" placeholder="-"> 
+  </div>
+ 
+</div>
+<div class="btnReturnAllDiv" *ngIf="returnAllProductsButton"><button  (click)="returnAll()">returnAll</button></div>
+

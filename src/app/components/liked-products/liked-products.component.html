@@ -1,0 +1,33 @@
+<app-header-holder></app-header-holder>
+<div class="title"  *ngIf="likeProducts.length > 0"><h1> Your Liked Products</h1></div>
+
+ <div class="holderDiv">
+    <div class="messageDiv" *ngIf="likeProducts.length === 0">
+      
+            <h1>
+                You didn't add liked products. Do it!
+            </h1>
+              <img src="assets/images/smile.png" alt="">
+    </div>
+    <div class="productDiv" *ngFor="let product of likeProducts;let i=index">
+        <div class="flexEnd">
+            <button (click)="removeItem(i)" >X</button>
+        </div>
+       
+        <app-product-image [collectionImage]="product.variantsItems[0].variantsImage"></app-product-image>
+        <div class="productName">
+            <h1>{{product.itemType}}</h1>
+        </div>
+       
+        <app-price [price]="product.price" ></app-price> 
+     <p>{{product.variantsItems[0].sizes}}</p>
+     <p>{{product.variantsItems[0].color}}</p>
+
+     <button class="cartBtn" (click)="addToCart(i)">add to cart</button>
+    </div>
+ </div>
+    
+    
+  
+    
+

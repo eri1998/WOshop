@@ -1,0 +1,21 @@
+:host{
+    cursor: pointer;
+    width: 30%;
+   
+}
+div{
+    margin: 5% 0;
+    width: 100%;
+    
+    
+}
+@media screen and (max-width:728px) {
+    :host{
+        width: 40%;
+    }
+}
+@media screen and (max-width:581px) {
+    :host{
+        width: 100%;
+    }
+}

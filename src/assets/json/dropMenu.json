@@ -1,0 +1,49 @@
+
+
+   [
+      {
+        "title": "Menu 1",
+        "links": [
+          {"text": "NEW ARRIVALS", "url": "/OUTLET"},
+          {"text": "SPRING/SUMMER 2023", "url": "#2"},
+          {"text": "WO X ANDREW CUSHIN", "url": "#3"},
+          {"text": "WO PLUS+", "url": "#4"},
+          {"text": "KIDSWEAR", "url": "#5"},
+          {"text": "WO x LEO GREGORY", "url": "#6"},
+          {"text": "FIGHT CLUB", "url": "#7"},
+          {"text": "SPORTING GOODS", "url":"#8"},
+          {"text": "NEWSLETTER SIGN UP", "url": "#9"}
+        ]
+      },
+      {
+        "title": "Menu 2",
+        "links": [
+          {"text": "ACCESSORIES", "url": "http://link1.com"},
+          {"text": "COATS & JACKETS", "url": "http://link2.com"},
+          {"text": "DENIM JEANS", "url": "http://link3.com"},
+          {"text": "GRAPHIC TEES", "url": "http://link1.com"},
+          {"text": "HOODIES & SWEATS", "url": "http://link2.com"},
+          {"text": "KNITWEAR", "url": "http://link3.com"},
+          {"text": "OVER-SHIRTS", "url": "http://link1.com"},
+          {"text": "OVER-TOPS", "url": "http://link2.com"},
+          {"text": "POLO SHIRTS", "url": "http://link3.com"},
+          {"text": "SHIRTS", "url": "http://link1.com"},
+          {"text": "SHORTS", "url": "http://link2.com"},
+          {"text": "T-SHIRTS", "url": "http://link3.com"},
+          {"text": "TRACK TOPS & BOTTOMS", "url": "http://link1.com"},
+          {"text":  "TROUSERS", "url": "http://link2.com"}
+          
+        ]
+      },
+      {
+        "title": "Menu 3",
+        "image": "assets/images/T-SHIRT.jpg"
+        
+      },
+      {
+        "title": "Menu 4",
+        "image": "assets/images/OVER-SHIRT.jpg"
+        
+      }
+    ]
+  

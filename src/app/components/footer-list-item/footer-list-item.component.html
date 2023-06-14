@@ -1,0 +1,12 @@
+<div class="itemHolder">
+    <div class="row" *ngFor="let item of items">
+        <h4>{{ item.title }}</h4>
+        <ul>
+          <li *ngFor="let subItem of item.subItems">{{ subItem.label }}</li>
+        </ul>
+      </div>
+      <app-footer-form></app-footer-form>
+
+</div>
+
+  

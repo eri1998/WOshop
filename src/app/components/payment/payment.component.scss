@@ -1,0 +1,42 @@
+@import '/src/app/scss/mixin';
+@import '/src/app/scss/variables';
+form {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid $color-white;
+    border-radius: 5px;
+  
+    h2 {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+  
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+  
+    input[type="text"] {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      border: 1px solid  $color-white;
+      border-radius: 3px;
+    }
+  
+    input[type="radio"] {
+      margin-right: 5px;
+    }
+  
+    button{
+      padding: 10px 20px;
+      background-color:  $color-red;
+      color:  $color-white;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  }
+  

@@ -1,0 +1,26 @@
+<app-header-holder></app-header-holder>
+<div class="flex">
+    
+    <div class="mainDiv">
+        <app-categories [products]="allProducts" 
+        [id] = "id"
+        (filteredProductsChange)="handleFilteredProductsChange($event)"></app-categories>
+        <div class="productHolder">
+            <ng-container *ngFor="let product of newArriwalProducts" >
+                <div class="collectionApp" > 
+                    <app-collection-items  
+                        [itemType]="product.itemType" 
+                        [price]="product.price" 
+                        [variantsItems]="product.variantsItems">
+                    </app-collection-items>
+                
+                </div>
+            </ng-container>
+        </div>
+      
+      
+    </div>
+    
+</div> 
+<app-footer></app-footer>
+

@@ -1,0 +1,17 @@
+
+<div class="headerHolder">
+    <app-logotip></app-logotip>
+    <div class="menuDiv">
+      <app-icon-links (toggleClass)="receiveData($event)" ></app-icon-links>
+      
+      
+     <div [ngClass]="isClassVisible ? 'navDiv' : 'block'">
+      <app-navigations  ></app-navigations>
+     </div>
+         
+       
+          
+        
+      
+    </div>
+</div>

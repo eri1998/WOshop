@@ -1,0 +1,1132 @@
+
+  [
+    {
+    "title": "Shop by Collection",
+    "collectionsType": [
+      {
+        "id":1,
+        "collectionName": "NEW: OVER-SHIRTS",
+        "collectionImg": "assets/images/OVER-SHIRT.jpg",
+        "url": "/detailsCollection",
+        "collectionItems": [
+          {
+           
+            "itemType": "Kell Electric",
+            "price": 29.99,
+            "variantsItems": [
+              {
+                "color": "Red",
+                "variantsImage": [
+                  "assets/images/overShirt/kellElectricRed/prva.jpg",
+                  "assets/images/overShirt/kellElectricRed/druga.jpg",
+                  "assets/images/overShirt/kellElectricRed/treca.jpg"
+                
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Blue",
+                "variantsImage": [
+                  "assets/images/overShirt/kellElectricBlue/prva.jpg",
+                  "assets/images/overShirt/kellElectricBlue/druga.jpg",
+                  "assets/images/overShirt/kellElectricBlue/treca.jpg"
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Gray",
+                "variantsImage": [
+                  "assets/images/overShirt/kellElectricGray/prva.jpg",
+                  "assets/images/overShirt/kellElectricGray/druga.jpg",
+                  "assets/images/overShirt/kellElectricGray/treca.jpg"
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          },
+          {
+            "itemType": "La Motta",
+            "price": 19.99,
+            "variantsItems": [
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/overShirt/laMottaBlack/prva.jpg",
+                  "assets/images/overShirt/laMottaBlack/druga.jpg",
+                  "assets/images/overShirt/laMottaBlack/treca.jpg"
+                
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Green",
+                "variantsImage": [
+                  "assets/images/overShirt/laMottaGreen/prva.jpg",
+                  "assets/images/overShirt/laMottaGreen/druga.jpg",
+                  "assets/images/overShirt/laMottaGreen/treca.jpg"
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Orange",
+                "variantsImage": [
+                  "assets/images/overShirt/laMottaOrange/prva.jpg",
+                  "assets/images/overShirt/laMottaOrange/druga.jpg",
+                  "assets/images/overShirt/laMottaOrange/treca.jpg"
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          },
+          {
+            "itemType": "Porter",
+            "price": 19.99,
+            "variantsItems": [
+              {
+                "color": "Red",
+                "variantsImage": [
+                  "assets/images/overShirt/porterRed/prva.jpg",
+                  "assets/images/overShirt/porterRed/druga.jpg",
+                  "assets/images/overShirt/porterRed/treca.jpg"
+                
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Blue",
+                "variantsImage": [
+                  "assets/images/overShirt/portedBlue/druga.jpg",
+                  "assets/images/overShirt/portedBlue/druga.jpg",
+                  "assets/images/overShirt/portedBlue/treca.jpg"
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/overShirt/porterBlack/prva.jpg",
+                  "assets/images/overShirt/porterBlack/druga.jpg",
+                  "assets/images/overShirt/porterBlack/treca.jpg"
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          },
+          {
+            "itemType": "Vinie",
+            "price": 19.99,
+            "variantsItems": [
+              {
+                "color": "Yellow",
+                "variantsImage": [
+                  "assets/images/overShirt/vinnieYellow/prva.jpg",
+                  "assets/images/overShirt/vinnieYellow/druga.jpg",
+                  "assets/images/overShirt/vinnieYellow/treca.jpg"
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Rose",
+                "variantsImage": [
+                  "assets/images/overShirt/vinnieRose/prva.jpg",
+                  "assets/images/overShirt/vinnieRose/druga.jpg",
+                  "assets/images/overShirt/vinnieRose/treca.jpg"
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Gray",
+                "variantsImage": [
+                  "assets/images/overShirt/vinnieGray/prva.jpg",
+                  "assets/images/overShirt/vinnieGray/druga.jpg",
+                  "assets/images/overShirt/vinnieGray/treca.jpg"
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          },
+          {
+            "itemType": "Uselet Neck",
+            "price": 19.99,
+            "variantsItems": [
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/maja4.jpg",
+                  "assets/images/maja3.jpg"
+                
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Blue",
+                "variantsImage": [
+                  "assets/images/maja2.jpg",
+                  "assets/images/maja4.jpg",
+                  "assets/images/maja2.jpg"
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/maja2.jpg"
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          },
+          {
+            "itemType": "Uselet Neck",
+            "price": 19.99,
+            "variantsItems": [
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/maja4.jpg",
+                  "assets/images/maja3.jpg"
+                
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Blue",
+                "variantsImage": [
+                  "assets/images/maja2.jpg",
+                  "assets/images/maja4.jpg",
+                  "assets/images/maja2.jpg"
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/maja2.jpg"
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          },
+          {
+            "itemType": "Uselet Neck",
+            "price": 19.99,
+            "variantsItems": [
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/maja4.jpg",
+                  "assets/images/maja3.jpg"
+                
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Blue",
+                "variantsImage": [
+                  "assets/images/maja2.jpg",
+                  "assets/images/maja4.jpg",
+                  "assets/images/maja2.jpg"
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/maja2.jpg"
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          },
+          {
+            "itemType": "Uselet Neck",
+            "price": 19.99,
+            "variantsItems": [
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/maja4.jpg",
+                  "assets/images/maja3.jpg"
+                
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Blue",
+                "variantsImage": [
+                  "assets/images/maja2.jpg",
+                  "assets/images/maja4.jpg",
+                  "assets/images/maja2.jpg"
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/maja2.jpg"
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          },
+          {
+            "itemType": "Uselet Neck",
+            "price": 19.99,
+            "variantsItems": [
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/maja4.jpg",
+                  "assets/images/maja3.jpg"
+                
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Blue",
+                "variantsImage": [
+                  "assets/images/maja2.jpg",
+                  "assets/images/maja4.jpg",
+                  "assets/images/maja2.jpg"
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/maja2.jpg"
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          },
+          {
+            "itemType": "Uselet Neck",
+            "price": 19.99,
+            "variantsItems": [
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/maja4.jpg",
+                  "assets/images/maja3.jpg"
+                
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Blue",
+                "variantsImage": [
+                  "assets/images/maja2.jpg",
+                  "assets/images/maja4.jpg",
+                  "assets/images/maja2.jpg"
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/maja2.jpg"
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          },
+          {
+            "itemType": "Uselet Neck",
+            "price": 19.99,
+            "variantsItems": [
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/maja4.jpg",
+                  "assets/images/maja3.jpg"
+                
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Blue",
+                "variantsImage": [
+                  "assets/images/maja2.jpg",
+                  "assets/images/maja4.jpg",
+                  "assets/images/maja2.jpg"
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/maja2.jpg"
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          }
+          
+        ]
+      },
+      {
+        "id":2,
+        "collectionName": "NEW:POLOS",
+        "collectionImg": "assets/images/polos.jpg",
+        "url": "/t-shirt",
+        "collectionItems": [
+          {
+            "itemType": "Caneiros",
+            "price": 29.99,
+            "variantsItems": [
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/polosMajice/caneirosBlack/prva.jpg",
+                  "assets/images/polosMajice/caneirosBlack/druga.jpg",
+                  "assets/images/polosMajice/caneirosBlack/treca.jpg",
+                  "assets/images/polosMajice/caneirosBlack/cetvrta.jpg",
+                  "assets/images/polosMajice/caneirosBlack/peta.jpg",
+                  "assets/images/polosMajice/caneirosBlack/sesta.jpg",
+                  "assets/images/polosMajice/caneirosBlack/sedma.jpg",
+                  "assets/images/polosMajice/caneirosBlack/osma.jpg"
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Blue",
+                "variantsImage": [
+                  "assets/images/polosMajice/caneirosBlue/prva.jpg",
+                  "assets/images/polosMajice/caneirosBlue/druga.jpg",
+                  "assets/images/polosMajice/caneirosBlue/treca.jpg",
+                  "assets/images/polosMajice/caneirosBlue/cetvrta.jpg",
+                  "assets/images/polosMajice/caneirosBlue/peta.jpg",
+                  "assets/images/polosMajice/caneirosBlue/sesta.jpg"
+                  
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Gray",
+                "variantsImage": [
+                  "assets/images/polosMajice/caneirosGray/prva.jpg",
+                  "assets/images/polosMajice/caneirosGray/druga.jpg",
+                  "assets/images/polosMajice/caneirosGray/treca.jpg",
+                  "assets/images/polosMajice/caneirosGray/cetvrta.jpg",
+                  "assets/images/polosMajice/caneirosGray/peta.jpg",
+                  "assets/images/polosMajice/caneirosGray/sesta.jpg",
+                  "assets/images/polosMajice/caneirosGray/sedma.jpg"
+                  
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              },
+              {
+                "color": "Pink",
+                "variantsImage": [
+                  "assets/images/polosMajice/caneirosPink/prva.jpg",
+                  "assets/images/polosMajice/caneirosPink/druga.jpg",
+                  "assets/images/polosMajice/caneirosPink/treca.jpg",
+                  "assets/images/polosMajice/caneirosPink/cetvrta.jpg",
+                  "assets/images/polosMajice/caneirosPink/peta.jpg",
+                  "assets/images/polosMajice/caneirosPink/sesta.jpg",
+                  "assets/images/polosMajice/caneirosPink/sedma.jpg"
+                  
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Orange",
+                "variantsImage": [
+                  "assets/images/polosMajice/caneirosOrange/prva.jpg",
+                  "assets/images/polosMajice/caneirosOrange/druga.jpg",
+                  "assets/images/polosMajice/caneirosOrange/treca.jpg",
+                  "assets/images/polosMajice/caneirosOrange/cetvrta.jpg",
+                  "assets/images/polosMajice/caneirosOrange/peta.jpg",
+                  "assets/images/polosMajice/caneirosOrange/sesta.jpg",
+                  "assets/images/polosMajice/caneirosOrange/sedma.jpg"
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Yellow",
+                "variantsImage": [
+                  "assets/images/polosMajice/caneirosYellow/prva.jpg",
+                  "assets/images/polosMajice/caneirosYellow/druga.jpg",
+                  "assets/images/polosMajice/caneirosYellow/treca.jpg",
+                  "assets/images/polosMajice/caneirosYellow/cetvrta.jpg",
+                  "assets/images/polosMajice/caneirosYellow/peta.jpg",
+                  "assets/images/polosMajice/caneirosYellow/sesta.jpg",
+                  "assets/images/polosMajice/caneirosYellow/sedma.jpg"
+                  
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              }
+            ]
+          },
+          {
+            "itemType": "linearAqua",
+            "price": 29.99,
+            "variantsItems": [
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/polosMajice/linearAqua/prva.jpg",
+                  "assets/images/polosMajice/linearAqua/druga.jpg",
+                  "assets/images/polosMajice/linearAqua/treca.jpg"
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              }
+            ]
+          },
+          {
+            "itemType": "sterling",
+            "price": 29.99,
+            "variantsItems": [
+              {
+                "color": "Blue",
+                "variantsImage": [
+                  "assets/images/polosMajice/sterlingBlue/prva.jpg",
+                  "assets/images/polosMajice/sterlingBlue/druga.jpg"
+                  
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Purple",
+                "variantsImage": [
+                  "assets/images/polosMajice/sterlingPurple/prva.jpg",
+                  "assets/images/polosMajice/sterlingPurple/druga.jpg",
+                  "assets/images/polosMajice/sterlingPurple/treca.jpg"
+                  
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "White",
+                "variantsImage": [
+                  "assets/images/polosMajice/caneirosGray/prva.jpg",
+                  "assets/images/polosMajice/caneirosGray/druga.jpg"
+                  
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          },
+          {
+            "itemType": "Monteray",
+            "price": 29.99,
+            "variantsItems": [
+              {
+                "color": "Blue",
+                "variantsImage": [
+                  "assets/images/polosMajice/monterayBlue/prva.jpg",
+                  "assets/images/polosMajice/monterayBlue/druga.jpg",
+                  "assets/images/polosMajice/monterayBlue/treca.jpg"
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/polosMajice/monterayBlack/prva.jpg",
+                  "assets/images/polosMajice/monterayBlack/druga.jpg",
+                  "assets/images/polosMajice/monterayBlack/treca.jpg"
+                  
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Yellow",
+                "variantsImage": [
+                  "assets/images/polosMajice/monterayYellow/prva.jpg",
+                  "assets/images/polosMajice/monterayYellow/druga.jpg"
+                  
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          },
+          {
+            "itemType": "Caneiros",
+            "price": 29.99,
+            "variantsItems": [
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/polosMajice/caneirosBlack/prva.jpg",
+                  "assets/images/polosMajice/caneirosBlack/druga.jpg",
+                  "assets/images/polosMajice/caneirosBlack/treca.jpg",
+                  "assets/images/polosMajice/caneirosBlack/cetvrta.jpg",
+                  "assets/images/polosMajice/caneirosBlack/peta.jpg",
+                  "assets/images/polosMajice/caneirosBlack/sesta.jpg",
+                  "assets/images/polosMajice/caneirosBlack/sedma.jpg",
+                  "assets/images/polosMajice/caneirosBlack/osma.jpg"
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Blue",
+                "variantsImage": [
+                  "assets/images/polosMajice/caneirosBlue/prva.jpg",
+                  "assets/images/polosMajice/caneirosBlue/druga.jpg",
+                  "assets/images/polosMajice/caneirosBlue/treca.jpg",
+                  "assets/images/polosMajice/caneirosBlue/cetvrta.jpg",
+                  "assets/images/polosMajice/caneirosBlue/peta.jpg",
+                  "assets/images/polosMajice/caneirosBlue/sesta.jpg"
+                  
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Gray",
+                "variantsImage": [
+                  "assets/images/polosMajice/caneirosGray/prva.jpg",
+                  "assets/images/polosMajice/caneirosGray/druga.jpg",
+                  "assets/images/polosMajice/caneirosGray/treca.jpg",
+                  "assets/images/polosMajice/caneirosGray/cetvrta.jpg",
+                  "assets/images/polosMajice/caneirosGray/peta.jpg",
+                  "assets/images/polosMajice/caneirosGray/sesta.jpg",
+                  "assets/images/polosMajice/caneirosGray/sedma.jpg"
+                  
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              },
+              {
+                "color": "Pink",
+                "variantsImage": [
+                  "assets/images/polosMajice/caneirosPink/prva.jpg",
+                  "assets/images/polosMajice/caneirosPink/druga.jpg",
+                  "assets/images/polosMajice/caneirosPink/treca.jpg",
+                  "assets/images/polosMajice/caneirosPink/cetvrta.jpg",
+                  "assets/images/polosMajice/caneirosPink/peta.jpg",
+                  "assets/images/polosMajice/caneirosPink/sesta.jpg",
+                  "assets/images/polosMajice/caneirosPink/sedma.jpg"
+                  
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Orange",
+                "variantsImage": [
+                  "assets/images/polosMajice/caneirosOrange/prva.jpg",
+                  "assets/images/polosMajice/caneirosOrange/druga.jpg",
+                  "assets/images/polosMajice/caneirosOrange/treca.jpg",
+                  "assets/images/polosMajice/caneirosOrange/cetvrta.jpg",
+                  "assets/images/polosMajice/caneirosOrange/peta.jpg",
+                  "assets/images/polosMajice/caneirosOrange/sesta.jpg",
+                  "assets/images/polosMajice/caneirosOrange/sedma.jpg"
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Yellow",
+                "variantsImage": [
+                  "assets/images/polosMajice/caneirosYellow/prva.jpg",
+                  "assets/images/polosMajice/caneirosYellow/druga.jpg",
+                  "assets/images/polosMajice/caneirosYellow/treca.jpg",
+                  "assets/images/polosMajice/caneirosYellow/cetvrta.jpg",
+                  "assets/images/polosMajice/caneirosYellow/peta.jpg",
+                  "assets/images/polosMajice/caneirosYellow/sesta.jpg",
+                  "assets/images/polosMajice/caneirosYellow/sedma.jpg"
+                  
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              }
+            ]
+          },
+          {
+            "itemType": "linearAqua",
+            "price": 29.99,
+            "variantsItems": [
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/polosMajice/linearAqua/prva.jpg",
+                  "assets/images/polosMajice/linearAqua/druga.jpg",
+                  "assets/images/polosMajice/linearAqua/treca.jpg"
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              }
+            ]
+          },
+          {
+            "itemType": "sterling",
+            "price": 29.99,
+            "variantsItems": [
+              {
+                "color": "Blue",
+                "variantsImage": [
+                  "assets/images/polosMajice/sterlingBlue/prva.jpg",
+                  "assets/images/polosMajice/sterlingBlue/druga.jpg",
+                  "assets/images/polosMajice/sterlingBlue/treca.jpg"
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Purple",
+                "variantsImage": [
+                  "assets/images/polosMajice/sterlingPurple/prva.jpg",
+                  "assets/images/polosMajice/sterlingPurple/druga.jpg",
+                  "assets/images/polosMajice/sterlingPurple/treca.jpg"
+                  
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "White",
+                "variantsImage": [
+                  "assets/images/polosMajice/caneirosGray/prva.jpg",
+                  "assets/images/polosMajice/caneirosGray/druga.jpg"
+                  
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          },
+          {
+            "itemType": "Monteray",
+            "price": 29.99,
+            "variantsItems": [
+              {
+                "color": "Blue",
+                "variantsImage": [
+                  "assets/images/polosMajice/monterayBlue/prva.jpg",
+                  "assets/images/polosMajice/monterayBlue/druga.jpg",
+                  "assets/images/polosMajice/monterayBlue/treca.jpg"
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/polosMajice/monterayBlack/prva.jpg",
+                  "assets/images/polosMajice/monterayBlack/druga.jpg",
+                  "assets/images/polosMajice/monterayBlack/treca.jpg"
+                  
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Yellow",
+                "variantsImage": [
+                  "assets/images/polosMajice/monterayYellow/prva.jpg",
+                  "assets/images/polosMajice/monterayYellow/druga.jpg"
+                  
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          }
+          
+        ]
+      },
+      
+      
+      {
+        "id":3,
+        "collectionName": "NEW: T-SHIRTS",
+        "collectionImg": "assets/images/T-SHIRT.jpg",
+        "url": "/t-shirt",
+        "collectionItems": [
+          {
+            "itemType": "Millegruv",
+            "price": 29.99,
+            "variantsItems": [
+              {
+                
+                "color": "Blue",
+                "variantsImage": [
+                  "assets/images/tShirt/millegruvBlue/prva.jpg",
+                  "assets/images/tShirt/millegruvBlue/druga.jpg",
+                  "assets/images/tShirt/millegruvBlue/treca.jpg"
+                ],
+                "sizes": ["S", "M", "L"]
+              },
+              {
+                "color": "White",
+                "variantsImage": [
+                  "assets/images/tShirt/millegruvWhite/prva.jpg",
+                  "assets/images/tShirt/millegruvWhite/druga.jpg",
+                  "assets/images/tShirt/millegruvWhite/treca.jpg"
+                
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+              },
+              {
+                "color": "Orange",
+                "variantsImage": [
+                  "assets/images/tShirt/millegruvOrange/prva.jpg",
+                  "assets/images/tShirt/millegruvOrange/druga.jpg",
+                  "assets/images/tShirt/millegruvOrange/treca.jpg"
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          },
+          {
+            "itemType": "Cannon",
+            "price": 29.99,
+            "variantsItems": [
+              {
+                "color": "Gray",
+                "variantsImage": [
+                  "assets/images/tShirt/cannonGray/prva.jpg",
+                  "assets/images/tShirt/cannonGray/druga.jpg",
+                  "assets/images/tShirt/cannonGray/treca.jpg"
+                
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Pink",
+                "variantsImage": [
+                  "assets/images/tShirt/cannonPink/prva.jpg",
+                  "assets/images/tShirt/cannonPink/druga.jpg",
+                  "assets/images/tShirt/cannonPink/treca.jpg"
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Orange",
+                "variantsImage": [
+                  "assets/images/tShirt/cannonOrange/prva.jpg",
+                  "assets/images/tShirt/cannonOrange/druga.jpg",
+                  "assets/images/tShirt/cannonOrange/treca.jpg"
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          },
+          {
+            "itemType": "Kings",
+            "price": 29.99,
+            "variantsItems": [
+              {
+                "color": "Blue",
+                "variantsImage": [
+                  "assets/images/tShirt/kingsBlue/prva.jpg",
+                  "assets/images/tShirt/kingsBlue/druga.jpg",
+                  "assets/images/tShirt/kingsBlue/treca.jpg"
+                
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Brown",
+                "variantsImage": [
+                  "assets/images/tShirt/kingsBrown/prva.jpg",
+                  "assets/images/tShirt/kingsBrown/druga.jpg",
+                  "assets/images/tShirt/kingsBrown/treca.jpg"
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Orange",
+                "variantsImage": [
+                  "assets/images/overShirt/millegruvOrange/prva.jpg",
+                  "assets/images/overShirt/millegruvOrange/druga.jpg",
+                  "assets/images/overShirt/millegruvOrange/treca.jpg"
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          },
+          {
+            "itemType": "Navaro",
+            "price": 29.99,
+            "variantsItems": [
+              {
+                "color": "Orange",
+                "variantsImage": [
+                  "assets/images/tShirt/navaroRed/prva.jpg",
+                  "assets/images/tShirt/navaroRed/druga.jpg",
+                  "assets/images/tShirt/navaroRed/treca.jpg"
+                
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Purple",
+                "variantsImage": [
+                  "assets/images/tShirt/navaroPurple/prva.jpg",
+                  "assets/images/tShirt/navaroPurple/druga.jpg",
+                  "assets/images/tShirt/navaroPurple/treca.jpg"
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              }
+            ]
+          },
+          {
+            "itemType": "Millegruv",
+            "price": 29.99,
+            "variantsItems": [
+              {
+                "color": "White",
+                "variantsImage": [
+                  "assets/images/overShirt/millegruvWhite/prva.jpg",
+                  "assets/images/overShirt/millegruvWhite/druga.jpg",
+                  "assets/images/overShirt/millegruvWhite/treca.jpg"
+                
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Blue",
+                "variantsImage": [
+                  "assets/images/overShirt/millegruvBlue/prva.jpg",
+                  "assets/images/overShirt/millegruvBlue/druga.jpg",
+                  "assets/images/overShirt/millegruvBlue/treca.jpg"
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Orange",
+                "variantsImage": [
+                  "assets/images/overShirt/millegruvOrange/prva.jpg",
+                  "assets/images/overShirt/millegruvOrange/druga.jpg",
+                  "assets/images/overShirt/millegruvOrange/treca.jpg"
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          }
+          
+        ]
+      },
+      {
+        "id":4,
+        "collectionName": "NEW: SHORTS",
+        "collectionImg": "assets/images/shorts.jpg",
+        "url": "/t-shirt",
+        "collectionItems": [
+          {
+            "itemType": "Round Neck",
+            "price": 29.99,
+            "variantsItems": [
+              {
+                "color": "Red",
+                "variantsImage": [
+                  "assets/images/maja3.jpg",
+                  "assets/images/maja3.jpg"
+                
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Blue",
+                "variantsImage": [
+                  "assets/images/maja4.jpg",
+                  "assets/images/maja4.jpg",
+                  "assets/images/maja2.jpg"
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/maja2.jpg"
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          }
+          
+        ]
+      },
+      {
+        "id":5,
+        "collectionName": "NEW: HOODS&SWEATS",
+        "collectionImg": "assets/images/hoodsSweats.jpg",
+        "url": "/t-shirt",
+        "collectionItems": [
+          {
+            "itemType": "Round Neck",
+            "price": 29.99,
+            "variantsItems": [
+              {
+                "color": "Red",
+                "variantsImage": [
+                  "assets/images/maja3.jpg",
+                  "assets/images/maja3.jpg"
+                
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Blue",
+                "variantsImage": [
+                  "assets/images/maja4.jpg",
+                  "assets/images/maja4.jpg",
+                  "assets/images/maja2.jpg"
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/maja2.jpg"
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          }
+          
+        ]
+      },
+      {
+        "id":6,
+        "collectionName": "NEW: HOUSE CHECK",
+        "collectionImg": "assets/images/houseCheck.jpg",
+        "url": "/t-shirt",
+        "collectionItems": [
+          {
+            "itemType": "Round Neck",
+            "price": 29.99,
+            "variantsItems": [
+              {
+                "color": "Red",
+                "variantsImage": [
+                  "assets/images/maja3.jpg",
+                  "assets/images/maja3.jpg"
+                
+                  
+                ],
+                "sizes": ["S", "M", "L", "XL"]
+                
+              },
+              {
+                "color": "Blue",
+                "variantsImage": [
+                  "assets/images/maja4.jpg",
+                  "assets/images/maja4.jpg",
+                  "assets/images/maja2.jpg"
+                ],
+                "sizes": ["S", "M", "L"]
+                
+              },
+              {
+                "color": "Black",
+                "variantsImage": [
+                  "assets/images/maja2.jpg"
+                ],
+                "sizes": ["M", "L", "XLLL"]
+                
+              }
+            ]
+          }
+          
+        ]
+      }
+        
+      
+        
+      
+
+    ]
+  }
+      
+    
+    
+    
+  ]
+ 
+                

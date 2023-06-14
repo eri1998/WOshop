@@ -1,0 +1,14 @@
+@import '/src/app/scss/variables';
+
+button{
+    padding: $font-size-s;
+    background-color: transparent;
+    border: none;
+    color:$color-primaryOrange;
+    outline: 0;
+    span{
+        font-size: 20px;
+
+    }
+    
+}

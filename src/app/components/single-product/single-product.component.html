@@ -1,0 +1,18 @@
+<app-header-holder></app-header-holder>
+<div class="preHolder">
+    <div class="holder">
+        <div class="info">
+     <p>{{description}}
+        </p>
+        </div>
+        <div class="product" *ngFor="let product of singleProduct">
+            <img [src]="product.variantsItems[0].variantsImage"alt="">
+        </div>
+     
+    </div>
+    <div class="buttonDiv">
+        <button (click)="addToCart()">Add to Cart</button>
+    </div>
+    
+</div>
+

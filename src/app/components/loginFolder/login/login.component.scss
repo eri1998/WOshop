@@ -1,0 +1,32 @@
+@import '/src/app/scss/mixin';
+@import '/src/app/scss/variables';
+.login {
+    @include flex-alignItems;
+    flex-direction: column;
+    input {
+        margin-bottom: 30px;
+        font-size: 25px;
+        padding: 10px 16px;
+        border-radius: 5px;
+        background-color:$color-white;
+        text-align: center;
+       
+    }
+
+    button {
+        padding:15px 12px;
+        width: 40%;
+        border-radius: 50px;
+        font-size: 20px;
+        background-color:$color-black;
+        color: $color-white;
+        cursor: pointer;
+        
+    }
+
+    .error {
+        font-size: 20px;
+        margin: 5px;
+        color:$color-red;
+    }
+}

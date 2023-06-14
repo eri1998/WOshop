@@ -1,0 +1,19 @@
+@import '/src/app/scss/mixin';
+@import '/src/app/scss/variables';
+.flex{
+    @include flex-justifyContent;
+    width: 100%;
+    padding: 5% 0;
+    cursor: pointer;
+    border-bottom: 1px solid $color-black;
+    button{
+        background-color:$color-black;
+        border-radius: 50%;
+     padding: 2px;
+        span{
+            color:$color-primaryOrange;
+            font-size: 18px;
+    
+        }
+    }
+}

@@ -1,0 +1,11 @@
+<div *ngFor="let menu of dropMenuData">
+        <img *ngIf="menu.image" [src]="menu.image" alt="{{ menu.title }}" />
+        <ul *ngIf="menu.links">
+          <li *ngFor="let link of menu.links">
+            <a routerLink="{{ link.url }}">{{ link.text }}</a>
+          </li>
+        </ul>
+      </div>
+
+
+  

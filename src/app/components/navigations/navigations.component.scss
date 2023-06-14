@@ -1,0 +1,135 @@
+@import '/src/app/scss/mixin';
+@import '/src/app/scss/variables';
+ul{
+       @include flex-justifyContent;
+        align-items: center;
+        width: 100%;
+        list-style-type: none;
+       
+        li{
+          @include flex_flexDirection;
+           padding: 3px;
+           height: 30px;
+           
+          
+           
+         .showLine{
+            display: flex;
+            
+            align-self: center;
+            animation: underline 0.5s ease-in forwards;
+            background-color:$color-white;
+         }
+         .reverseLine{
+          animation: underlineReverse 0.5s ease-in-out forwards;
+         }
+           a{
+           
+                text-decoration: none;
+                font-size: 13px;
+                color:$color-white;
+                &.span {
+                    color:$color-red;
+                   }
+            }
+            
+        }
+    }
+    .dropMenu{
+ 
+      animation: usporenPrikaz 0.3s ease-in-out forwards; 
+    }
+    .dropMenuUn{
+      animation: nestaniGore 0.3s ease-in-out forwards;
+       
+    }
+    @keyframes usporenPrikaz {
+        0%{
+           height: 315px;
+           opacity: 0;
+        }
+        100%{
+          opacity: 1;
+          height: 320px;
+        }
+      }
+      
+    @keyframes nestaniGore {
+        0%{
+           height: 330px;
+           opacity: 0;
+        }
+      
+        100%{
+          height: 300px;
+          opacity: 0.2;
+          
+        }
+      }
+
+    @keyframes underline {
+        0% {
+        width: 0%;
+        height: 0.2px;
+        opacity: 0.8;
+        }
+        99%{
+          width: 100%;
+          height: 0.2px;
+          opacity: 0.8;
+        }
+        100% {
+          width: 100%;
+          height: 1.6px;
+        
+          opacity: 1;
+
+        }
+      }
+      @keyframes underlineReverse {
+        0% {
+          width: 100%;
+          height: 1.6px;
+        }
+        100% {
+          width: 0%;
+        }
+      }
+
+@media screen and (max-width:810px) {
+  :host{
+    position: absolute;
+    z-index: 0;
+    background-color:$color-black;
+    top: 105px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 0 5%;
+    li{
+      background-color: $color-black;
+      
+      a{
+        color:$color-white;
+      }
+    }
+    
+  }
+}
+
+@media screen and (max-width:575px) {
+ ul{
+  display: block;
+ 
+  li{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(28, 28, 28, 0.9);
+    text-align: center;
+    
+  }
+ }
+}
+
+    

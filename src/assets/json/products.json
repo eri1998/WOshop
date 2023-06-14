@@ -1,0 +1,359 @@
+[
+  
+  {
+                  "collectionName":"new arriwals",
+                  "id": 0,
+                      "collectionItems": [
+              {
+                "categoryId":"majice",
+                "itemType": "Round Neck new arriwals",
+                "price": 29.99,
+                "variantsItems": [
+                  {
+                    "color": "Red",
+                    "sizes": ["S", "M", "L", "XL"],
+                    "variantsImage": [
+                      "assets/images/maja3.jpg",
+                      "assets/images/maja4.jpg",
+                      "assets/images/maja1.jpg"
+                    ]
+                  },
+                  
+                  {
+                    "color": "Red",
+                    "sizes": ["S", "M", "L", "XL"],
+                    "variantsImage": [
+                      "assets/images/maja3.jpg",
+                      "assets/images/maja4.jpg",
+                      "assets/images/maja1.jpg"
+                    ]
+                  },
+                  {
+                    "color": "Red",
+                    "sizes": ["S", "M", "L", "XL"],
+                    "variantsImage": [
+                      "assets/images/maja3.jpg",
+                      "assets/images/maja4.jpg",
+                      "assets/images/maja1.jpg"
+                    ]
+                  },
+                  {
+                    "color": "Red",
+                    "sizes": ["S", "M", "L", "XL"],
+                    "variantsImage": [
+                      "assets/images/maja3.jpg",
+                      "assets/images/maja4.jpg",
+                      "assets/images/maja1.jpg"
+                    ]
+                  },
+                  {
+                    "color": "Red",
+                    "sizes": ["S", "M", "L", "XL"],
+                    "variantsImage": [
+                      "assets/images/maja3.jpg",
+                      "assets/images/maja4.jpg",
+                      "assets/images/maja1.jpg"
+                    ]
+                  },
+                  {
+                    "color": "Red",
+                    "sizes": ["S", "M", "L", "XL"],
+                    "variantsImage": [
+                      "assets/images/maja3.jpg",
+                      "assets/images/maja4.jpg",
+                      "assets/images/maja1.jpg"
+                    ]
+                  }
+                ]
+            },
+            
+         {
+                "categoryId":"duksevi",
+                "itemType": "Uselet Neck new arriwals",
+                "price": 19.99,
+                "variantsItems": [
+                  {
+                    "color": "Black",
+                    "sizes": ["S", "M", "L", "XL"],
+                    "variantsImage": [
+                      "assets/images/maja4.jpg",
+                      "assets/images/maja3.jpg"
+                    
+                      
+                    ]
+                   
+                    
+                  }
+                ]
+            },
+            {
+              "categoryId":"majice",
+              "itemType": "Round Neck new arriwals",
+              "price": 29.99,
+              "variantsItems": [
+                {
+                  "color": "Red",
+                  "sizes": ["S", "M", "L", "XL"],
+                  "variantsImage": [
+                    "assets/images/maja3.jpg",
+                    "assets/images/maja4.jpg",
+                    "assets/images/maja1.jpg"
+                  ]
+                }
+              ]
+          },
+          {
+            "categoryId":"majice",
+            "itemType": "Round Neck new arriwals",
+            "price": 29.99,
+            "variantsItems": [
+              {
+                "color": "Red",
+                "sizes": ["S", "M", "L", "XL"],
+                "variantsImage": [
+                  "assets/images/maja3.jpg",
+                  "assets/images/maja4.jpg",
+                  "assets/images/maja1.jpg"
+                ]
+              }
+            ]
+        },
+        {
+          "categoryId":"majice",
+          "itemType": "Round Neck new arriwals",
+          "price": 29.99,
+          "variantsItems": [
+            {
+              "color": "Red",
+              "sizes": ["S", "M", "L", "XL"],
+              "variantsImage": [
+                "assets/images/maja3.jpg",
+                "assets/images/maja4.jpg",
+                "assets/images/maja1.jpg"
+              ]
+            }
+          ]
+      },
+      {
+        "categoryId":"majice",
+        "itemType": "Round Neck new arriwals",
+        "price": 29.99,
+        "variantsItems": [
+          {
+            "color": "Red",
+            "sizes": ["S", "M", "L", "XL"],
+            "variantsImage": [
+              "assets/images/maja3.jpg",
+              "assets/images/maja4.jpg",
+              "assets/images/maja1.jpg"
+            ]
+          }
+        ]
+    },
+    {
+      "categoryId":"majice",
+      "itemType": "Round Neck new arriwals",
+      "price": 29.99,
+      "variantsItems": [
+        {
+          "color": "Red",
+          "sizes": ["S", "M", "L", "XL"],
+          "variantsImage": [
+            "assets/images/maja3.jpg",
+            "assets/images/maja4.jpg",
+            "assets/images/maja1.jpg"
+          ]
+        }
+      ]
+  },
+  {
+    "categoryId":"majice",
+    "itemType": "Round Neck new arriwals",
+    "price": 29.99,
+    "variantsItems": [
+      {
+        "color": "Red",
+        "sizes": ["S", "M", "L", "XL"],
+        "variantsImage": [
+          "assets/images/maja3.jpg",
+          "assets/images/maja4.jpg",
+          "assets/images/maja1.jpg"
+        ]
+      }
+    ]
+},
+{
+  "categoryId":"majice",
+  "itemType": "Round Neck new arriwals",
+  "price": 29.99,
+  "variantsItems": [
+    {
+      "color": "Red",
+      "sizes": ["S", "M", "L", "XL"],
+      "variantsImage": [
+        "assets/images/maja3.jpg",
+        "assets/images/maja4.jpg",
+        "assets/images/maja1.jpg"
+      ]
+    }
+  ]
+},
+{
+  "categoryId":"majice",
+  "itemType": "Round Neck new arriwals",
+  "price": 29.99,
+  "variantsItems": [
+    {
+      "color": "Red",
+      "sizes": ["S", "M", "L", "XL"],
+      "variantsImage": [
+        "assets/images/maja3.jpg",
+        "assets/images/maja4.jpg",
+        "assets/images/maja1.jpg"
+      ]
+    }
+  ]
+},
+{
+  "categoryId":"majice",
+  "itemType": "Round Neck new arriwals",
+  "price": 29.99,
+  "variantsItems": [
+    {
+      "color": "Red",
+      "sizes": ["S", "M", "L", "XL"],
+      "variantsImage": [
+        "assets/images/maja3.jpg",
+        "assets/images/maja4.jpg",
+        "assets/images/maja1.jpg"
+      ]
+    }
+  ]
+},
+{
+  "categoryId":"majice",
+  "itemType": "Round Neck new arriwals",
+  "price": 2.99,
+  "variantsItems": [
+    {
+      "color": "Red",
+      "sizes": ["S", "M", "L", "XL"],
+      "variantsImage": [
+        "assets/images/maja3.jpg",
+        "assets/images/maja4.jpg",
+        "assets/images/maja1.jpg"
+      ]
+    }
+  ]
+},
+{
+  "categoryId":"majice",
+  "itemType": "Round Neck new arriwals",
+  "price": 59.99,
+  "variantsItems": [
+    {
+      "color": "Red",
+      "sizes": ["S", "M", "L", "XL"],
+      "variantsImage": [
+        "assets/images/maja3.jpg",
+        "assets/images/maja4.jpg",
+        "assets/images/maja1.jpg"
+      ]
+    }
+  ]
+}
+          ]
+  
+  },
+                    {
+                      "collectionName":"sale",
+                      "id": 1,
+                          "collectionItems": [
+                  {
+                    "categoryId":"majice",
+                    "itemType": "Round Neck sale",
+                    "price": 79.99,
+                    "variantsItems": [
+                      {
+                        "color": "Red",
+                        "sizes": ["S", "M", "L", "XL"],
+                        "variantsImage": [
+                          "assets/images/maja3.jpg",
+                          "assets/images/maja4.jpg",
+                          "assets/images/maja1.jpg"
+                        ]
+                      }
+                    ]
+                  },
+
+                  {
+                    "categoryId":"duksevi",
+                    "itemType": "Uselet Neck sale",
+                    "price": 9.99,
+                    "variantsItems": [
+                      {
+                        "color": "Black",
+                        "sizes": ["S", "M", "L", "XL"],
+                        "variantsImage": [
+                          "assets/images/maja4.jpg",
+                          "assets/images/maja3.jpg"
+                        
+                          
+                        ]
+                      
+                        
+                      }
+                    ]
+                  }
+                  ]
+
+                  },
+                  {
+                    "collectionName":"outlet",
+                    "id": 2,
+                        "collectionItems": [
+                  {
+                    "categoryId":"duksevi",
+                  "itemType": "Round Neck outlet",
+                  "price": 29.99,
+                  "variantsItems": [
+                    {
+                      "color": "Red",
+                      "sizes": ["S", "M", "L", "XL"],
+                      "variantsImage": [
+                        "assets/images/maja3.jpg",
+                        "assets/images/maja4.jpg",
+                        "assets/images/maja1.jpg"
+                      ]
+                    }
+                  ]
+                  },
+
+                  {
+                  "categoryId":"duksevi",
+                  "itemType": "Uselet Neck outlet",
+                  "price": 19.99,
+                  "variantsItems": [
+                    {
+                      "color": "Black",
+                      "sizes": ["S", "M", "L", "XL"],
+                      "variantsImage": [
+                        "assets/images/maja4.jpg",
+                        "assets/images/maja3.jpg"
+                      
+                        
+                      ]
+                    
+                      
+                    }
+                  ]
+                  }
+                  ]
+
+                  }]
+
+
+
+
+
+

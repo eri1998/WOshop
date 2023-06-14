@@ -1,0 +1,23 @@
+<div class="holder">
+  <div class="buttonFlex" >
+    <ng-container *ngFor="let item of variantsItems;let i = index">
+        <button (click)="selectColor(item.color)" [class.first]="isFirstItem(i) && !border" [ngClass]="{
+      'red': item.color === 'Red',
+      'blue': item.color === 'Blue',
+      'green': item.color === 'Green',
+      'yellow': item.color === 'Yellow',
+      'orange': item.color === 'Orange',
+      'purple': item.color === 'Purple',
+      'pink': item.color === 'Pink',
+      'gray': item.color === 'Gray',
+      'black': item.color === 'Black',
+      'border': item.color === color && color !== '',
+    
+    }">
+      
+    </button>
+      </ng-container>
+    
+      </div>
+      
+</div>

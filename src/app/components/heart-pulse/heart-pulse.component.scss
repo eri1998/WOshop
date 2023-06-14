@@ -1,0 +1,15 @@
+
+@import '/src/app/scss/mixin';
+@import '/src/app/scss/variables';
+a{
+    background-color: $color-black;
+    border-radius: 50%;
+    border: 2px solid $color-black;
+    color:$color-primaryOrange;
+    span{
+        padding: $font-size-s;
+        font-size: 20px;
+
+
+    }
+}

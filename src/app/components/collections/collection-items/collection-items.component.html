@@ -1,0 +1,27 @@
+<div class="productHolder">
+    <app-product-image [collectionImage]="selectedVariant.variantsImage"></app-product-image>
+    <h1>{{ itemType }}</h1>
+    <app-price (click)="showSizeVariants=!showSizeVariants;selectedSize = '';"  [price]="price"></app-price> 
+    <app-color-variants [variantsItems]="variantsItems" (selectedColor)="onColorSelected($event)"></app-color-variants>
+    <app-size-variants *ngIf="showSizeVariants" [selectedVariant]="selectedVariant" (sizeSelected)="onSelectedSizes($event)" ></app-size-variants> 
+    <div class="cartAndLikeDiv">
+      <button class="cartIcon" *ngIf="selectedSize" (click)="addToCart()">Add to Cart</button>
+      <button class="heartPulse" *ngIf="selectedSize" (click)="likeProducts()"><span class="fa-solid fa-heart-pulse "></span></button>
+    </div>
+ </div>
+   
+        
+      
+
+    
+    
+    
+    
+    
+ 
+
+
+
+  
+
+

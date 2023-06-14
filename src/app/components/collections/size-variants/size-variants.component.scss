@@ -1,0 +1,23 @@
+@import '/src/app/scss/mixin';
+@import '/src/app/scss/variables';
+ul{
+    @include flex-justifyContent;
+    width: 100%;
+    margin-top: 20px;
+    button{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        cursor: pointer;
+        border: none;
+        p{
+            padding: 5%;
+            text-align: center;
+        }
+      
+    }
+    .selected {
+        border:1px solid $color-black;
+      }
+}
+

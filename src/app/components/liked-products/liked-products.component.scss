@@ -1,0 +1,113 @@
+@import '/src/app/scss/mixin';
+@import '/src/app/scss/variables';
+.title{
+   padding-top: 110px;
+   h1{
+      text-align: center;
+      font-size: 30px;
+      color: $color-green;
+   }
+}
+.holderDiv{
+   
+  padding: 0 10%;
+    width: 100%;
+   @include flex-justifyContent;
+    flex-wrap: wrap;
+    
+    .messageDiv{
+      display: flex;
+      flex-direction: column;
+      padding: 120px;
+      width: 100%;
+    
+      
+         h1{
+            font-size: 36px;
+            color:$color-primaryOrange;
+            text-align: start;
+         }
+         img{
+            margin-top: 60px;
+            width: 30%;
+            align-self: end;
+            transform: rotate(-45deg);
+         }
+      
+      
+     }
+    .productDiv{
+
+     padding: 3%;
+     width: 27%;
+     margin-top: 10px;
+     border: 1px solid$color-black;
+     .productName{
+      width: 100%;
+      h1{
+         font-size: 12px;
+         text-align: center;
+      }
+     }
+
+     .flexEnd{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+      button{
+         background-color: $color-red;
+         color:$color-white;
+         border-radius: 50%;
+         width: 25px;
+         height: 25px;
+      }
+     }
+     .cartBtn{
+        margin-top: 15px;
+        padding: 10px 20px;
+        border-radius: 20px;
+       
+        border: 1px solid $color-black;
+        outline: none;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+     }
+    }
+}
+@media screen and (max-width:920px) {
+   .holderDiv{
+      .productDiv{
+         width: 43%;
+         h1{
+            font-size: 14px;
+         }
+      }
+   }
+}
+@media screen and (max-width:810px) {
+   .title{
+      padding-top: 140px;
+      
+   }
+   .holderDiv{
+      padding: 0 2%;
+      .messageDiv{
+
+         padding-top: 140px;
+         h1{
+            font-size: 20px;
+         }
+         img{
+            width: 70%;
+         }
+      }
+   }
+}
+@media screen and (max-width:575px) {
+   .holderDiv{
+      .productDiv{
+         width:100%;
+      }
+   }
+}

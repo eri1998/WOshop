@@ -1,0 +1,76 @@
+[
+    {
+      "id":"0",
+      "image": "assets/images/ss3.jpg",
+      "text": "BUCKET HAT",
+      "buttonUrl": "/singleProduct",
+      "description":"The hat is a charming and elegant fashion accessory that will accentuate your style and provide you with protection from the sun or rain. Made from high-quality materials, this hat combines comfort and style in a unique way.s Its design features a classic shape with a rounded crown and a wide brim, giving it a sophisticated look. It is crafted from soft and breathable material that allows air circulation, providing you with a feeling of freshness even on hot summer days.Whether you wear it at the beach, on a nature excursion, or in city streets, this hat will offer you protection from the sun's rays and add a touch of elegance to your appearance.",
+      "collectionItems": [
+        {
+          "itemType": "Bucket Heat",
+          "price": 29.99,
+          "quantity":1,
+          "variantsItems": [
+            {
+              "color": "Blue",
+              "sizes": "OneSize",
+              "variantsImage": [
+                "assets/images/sesiric.jpg"
+               
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id":"1",
+      "image": "assets/images/ss2.jpg",
+      "text": "CABIN CASE BLACK",
+      "buttonUrl": "/singleProduct",
+      "description":"A new lightweight cabin spinner from Weekend Offender. A sturdy and solid luggage piece, it's polycarbonate design and glossy black finish give this case an elegant and distinguished look, complete with the iconic Weekend Offender logo to the front and the brand name 'WEEKEND OFFENDER' to the reverse. Other features include; two carry handles, telescopic handle and a secure combination lock. Our new cabin case is easy to handle and transport during all your travels. ",
+      "collectionItems": [
+        {
+          "itemType": "Suitcase",
+          "quantity":1,
+          "price": 29.99,
+          "variantsItems": [
+            {
+              "color": "Blue",
+              "sizes": "OneSize",
+              "variantsImage": [
+                "assets/images/kofer.jpg"
+               
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id":"2",
+      "image": "assets/images/towel.jpg",
+      "text": "GIB NICHTS ZU TOWEL GREEN",
+      "buttonUrl": "/singleProduct",
+      "description":"A premium high quality towel made from 100% loopback cotton that is soft against the skin and ultra-absorbent. This deep-pile jacquard woven towel from Weekend Offender features a parody design of the tongue label of a vintage Adidas trainer. ",
+      "collectionItems": [
+        {
+          "itemType": "towel",
+          "quantity":1,
+          "price": 29.99,
+          "variantsItems": [
+            {
+              "color": "Blue",
+              "sizes": "OneSize",
+              "variantsImage": [
+                "assets/images/towelProduct.jpg"
+               
+              ]
+            }
+          ]
+        }
+      ]
+    }
+    
+  ]
+  

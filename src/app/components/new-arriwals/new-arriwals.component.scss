@@ -1,0 +1,80 @@
+@import '/src/app/scss/mixin';
+@import '/src/app/scss/variables';
+    .flex{
+    width: 100%;
+    padding:2% 2%;
+    @include flex-justifyContent;
+    .mainDiv{
+        margin-top: 110px;
+        width: 100%;
+        justify-content: space-between;
+        .productHolder{
+            padding: 0 5%;
+            width: 90%;
+            @include flex-justifyContent;
+            flex-wrap: wrap;
+            .collectionApp{
+                margin-left: 18px;
+                margin-top: 18px;
+                width: 22%;
+                
+                
+            }
+        }
+        
+    }
+    
+        h1{
+         
+            font-size: 20px;
+        }
+
+}
+@media screen and (max-width:910px) {
+    .flex{
+        .mainDiv{
+            .productHolder{
+                width: 100%;
+                justify-content: space-between;
+                padding: 0;
+                .collectionApp{
+                    margin: 0;
+                    width: 30%;
+                }
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:557px) {
+    .flex{
+        .mainDiv{
+            .productHolder{
+                width: 100%;
+                justify-content: space-between;
+                padding: 0;
+                .collectionApp{
+                    margin: 0;
+                    width: 40%;
+                }
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:414px) {
+    .flex{
+        .mainDiv{
+            .productHolder{
+                width: 100%;
+                justify-content: space-between;
+                padding: 0;
+                .collectionApp{
+                    margin: 0;
+                    width: 90%;
+                }
+            }
+        }
+    }
+    
+}

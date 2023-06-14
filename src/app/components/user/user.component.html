@@ -1,0 +1,11 @@
+<button (click)="showLoginLogoutComponents = true" type="submit"><span class="fa-solid fa-user"></span></button>
+<div class="overlay-background" *ngIf="showLoginLogoutComponents" >
+    <div  *ngIf="showLoginLogoutComponents">
+        <button (click)="showLoginLogoutComponents = false" class="span">X</button>
+        <h3>LOGIN</h3>
+        <app-login></app-login>
+        <a href="">Forgot a password ?</a>
+        <p>Not a member ?</p>
+        <app-logout></app-logout>
+    </div>
+</div>

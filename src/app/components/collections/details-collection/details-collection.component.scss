@@ -1,0 +1,56 @@
+.wrap{
+    width: 100%;
+  .holder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .flex{
+      height: 600px;
+      display: flex;
+      align-self: center;
+      margin-top: 110px;
+     .collectionApp{
+            margin-left: 20px;
+                   margin-top: 18px;
+                        width: 250px;
+                     
+                        
+                        
+                    }
+                }
+     
+            }
+        }
+@media screen and (max-width:810px){
+    .flex{
+        margin-top: 110px;
+    }
+    .holder{
+        padding-top:25px ;
+
+    }
+}
+@media screen and (max-width:630px){
+   .wrap{
+    .holder{
+        .flex{
+            width: 40%;
+        }
+    }
+   }
+}
+@media screen and (max-width:573px){
+    .wrap{
+     .holder{
+         .flex{
+             width: 86%;
+             justify-content: space-around;
+             .collectionApp{
+                margin-left: 0;
+             }
+         }
+     }
+    }
+ }
+ 

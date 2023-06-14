@@ -1,0 +1,50 @@
+@import '/src/app/scss/mixin';
+@import '/src/app/scss/variables';
+:host{
+    width: 100%;
+}
+.upperLinks {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  
+    .buttonHolder {
+      margin-top: 20px;
+      width: 15%;
+      @include flex-justifyContent;
+      .k {
+        display: none;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 810px) {
+    .upperLinks {
+      width: 100%;
+      .buttonHolder {
+       width: 25%;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .upperLinks{
+        width: 100%;
+        .buttonHolder{
+            justify-content: space-around;
+            background-color: $color-black;
+            width: 100% ;
+            .k{
+                outline: 0;
+                border: none;
+                background-color: transparent;
+                display: block;
+                span{
+                    font-size: 20px;
+                    color:$color-primaryOrange;
+                }
+            }
+        }
+    }
+  }
+  

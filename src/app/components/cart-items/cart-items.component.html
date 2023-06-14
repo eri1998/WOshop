@@ -1,0 +1,45 @@
+<div class="myBasket" *ngIf="showCart">
+    <div class="flexBasket">
+      <h2>My Basket</h2>
+      <button class="closeCart" (click)="onCloseCart()">X</button>
+    </div>
+  <div class="flex" *ngFor="let item of items; let i = index;">
+      <div class="productHolder">
+          <img [src]="item.variantsItems[0].variantsImage[0]">
+          <div class="productInfo">
+            <app-remove-item  [index]="i" 
+            (subTotalChange)="updatePrice(i, $event)">
+            </app-remove-item>
+              <h3>{{ item.itemType }}</h3>
+              <p>{{ item.variantsItems[0].color }}</p>
+              <p>{{ item.variantsItems[0].sizes }}</p>
+              <app-quantity [quantity]="item.quantity" 
+                  [price]="item.price"  
+                  [index]="i" 
+                  (quantityChange)="updateQuantity(i, $event)">
+              </app-quantity>
+            
+          </div>
+        
+      </div>
+    </div>
+
+    <div class="emptyCart" *ngIf="items.length === 0">
+      <img src="/assets/images/empty_cart.png" alt="empty">
+    </div>
+
+    <ng-container *ngIf="items.length >0">
+        <div class="subotal">
+          <h4>Subotal</h4>
+          <span>{{ subTotal | currency:'EUR' }}</span> 
+        </div>
+      <div class="buttonsCheckOut">
+        <a class="checkOut" routerLink="/checkout" >Check out</a>
+      </div>
+    </ng-container>
+   
+</div>
+
+
+
+

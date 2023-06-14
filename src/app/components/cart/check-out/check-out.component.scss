@@ -1,0 +1,174 @@
+@import '/src/app/scss/variables';
+@import '/src/app/scss/mixin';
+.cart-container {
+   @include flex_flexDirection;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: $font-size-l;
+    border: 1px solid $color-white;
+    
+    .cart-heading {
+      margin-bottom: $font-size-l;
+      text-align: center;
+      font-size: $font-size-xl;
+      font-weight: bold;
+    }
+    
+    .cart-items {
+       @include flex_flexDirection;
+      
+      .item {
+       @include flex-alignItems;
+        margin-bottom: $font-size-xl;
+        border-bottom: 1px solid $color-white;
+        
+        .item-img {
+          width: 100px;
+          height: 100px;
+          margin-right:$font-size-xl;
+          
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        
+        .item-info {
+          h3{
+            width: 200px;
+          }
+          width: 100%;
+           @include flex-justifyContent;
+         
+          
+
+          .flex{
+            width: 40%;
+          }
+          .item-title {
+            font-size: $font-size-l;
+            font-weight: bold;
+            margin-bottom:$font-size-m;
+          }
+          
+          .item-price {
+            font-size: $font-size-l;
+            margin-bottom: $font-size-m;
+          }
+          
+          .item-quantity {
+            @include flex-alignItems;
+            margin-bottom: $font-size-m;
+            
+            label {
+              margin-right: $font-size-m;
+              font-size: $font-size-l;
+            }
+            
+            input {
+              width: 50px;
+              padding: $font-size-m;
+              font-size:  $font-size-l;
+              border: 1px solid $color-white;
+              border-radius:$font-size-s;
+
+            }
+          }
+          
+          .item-remove {
+            display: flex;
+            
+            .remove-btn {
+              padding: $font-size-m $font-size-l;
+              font-size: $font-size-l;
+              border: none;
+              background-color:$color-red;
+              color: $color-white;
+              cursor: pointer;
+              transition: all 0.3s ease;
+              
+              &:hover {
+                background-color: $color-redHover;
+              }
+            }
+          }
+        }
+      }
+    }
+    
+    .cart-summary {
+     @include flex_flexDirection;
+      align-items: flex-end;
+      margin-top: $font-size-l;
+      
+      .subtotal,
+      .taxes,
+      .shipping,
+      .total {
+       @include flex-justifyContent;
+        width: 100%;
+        margin-bottom:$font-size-m;
+        
+        p {
+          font-size: $font-size-l;
+        }
+        
+        .subtotal-amount,
+        .taxes-amount,
+        .shipping-amount,
+        .total-amount {
+          font-size: $font-size-l;
+          font-weight: bold;
+        }
+      }
+    }
+    
+    .cart-actions {
+      @include flex-justifyContent;
+      margin-top: $font-size-l;
+      
+      .continue-shopping-a,
+      .checkout-btn {
+        padding: $font-size-m $font-size-l;
+        font-size:$font-size-l;
+        border: none;
+        border-radius: $font-size-s;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      
+      .continue-shopping-a {
+        background-color: $color-blue;
+        text-decoration: none;
+        color: $color-white;
+        
+        &:hover {
+            background-color: $color-blueHover;
+          }
+        }
+        
+        .checkout-btn {
+          background-color: $color-green;
+          color: $color-white;
+          
+          &:hover {
+            background-color: $color-greenHover;
+          }
+        }
+      }
+    }
+  @media screen and (max-width:557px){
+    .item{
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width:429px){
+    .item-title{
+      font-size: $font-size-s;
+      width: 100px;
+   
+    }
+  }
+  

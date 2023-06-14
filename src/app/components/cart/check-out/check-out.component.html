@@ -1,0 +1,56 @@
+<div class="cart-container">
+    <div class="cart-heading">
+      <h2>Your Cart</h2>
+    </div>
+    <div class="cart-items">
+     
+      <div class="item" *ngFor="let item of items; let i = index;">
+        <div class="item-img">
+          <img src="{{item.variantsItems[0].variantsImage[0]}}" alt="item image">
+        </div>
+        <div class="item-info">
+          <h3 class="item-title">{{item.itemType}}</h3>
+         <div class="flex">
+          <app-quantity 
+          [quantity]="item.quantity"
+          [price]="item.price"  
+          [index]="i" 
+          (quantityChange)="updateQuantity(i, $event)">
+         </app-quantity>
+         </div>
+          
+          <div class="item-remove">
+           <app-remove-item  [index]="i" (subTotalChange)="updatePrice(i, $event)"></app-remove-item>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+    <div class="cart-summary">
+      <div class="subtotal">
+        <p>Subtotal:</p>
+        <p class="subtotal-amount">{{subTotal | currency:'EUR'}}</p>
+      </div>
+      <div class="taxes">
+        <p>Taxes:</p>
+        <p class="taxes-amount">{{taxes  | currency:'EUR'}}</p>
+      </div>
+      <div class="shipping">
+        <p>Shipping:</p>
+        <p class="shipping-amount">{{shipping  | currency:'EUR'}}</p>
+      </div>
+      <div class="total">
+        <p>Total:</p>
+        <p class="total-amount">{{total | currency:'EUR'}}</p>
+      </div>
+    </div>
+    <div class="cart-actions">
+      <a routerLink="/home" class="continue-shopping-a">Continue Shopping</a>
+      <button (click)="showPaymentComponent=true" class="checkout-btn" >Checkout</button>
+      
+    </div>
+    <ng-container *ngIf="showPaymentComponent && items.length > 0">
+      <app-payment></app-payment>
+    </ng-container>
+  </div>
+  

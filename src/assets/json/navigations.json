@@ -1,0 +1,34 @@
+
+     [
+      {
+        "name": "NEW ARRIWALS",
+        "link": "/newArriwals",
+        "id":0
+
+      },
+        {
+          "name": "SHOP ONLINE",
+          "link": "/shopOnline",
+          "id":4
+        },
+        {
+          "name": "CITY SERIES",
+          "link": "/CITY SERIES",
+          "id":5
+
+        },
+        {
+          "name": "SALE",
+          "link": "/newArriwals",
+          "id":1
+
+        },
+        {
+          "name": "OUTLET",
+          "link": "/newArriwals",
+          "id":2
+
+        }
+      
+    ]
+  

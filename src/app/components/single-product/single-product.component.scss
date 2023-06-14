@@ -1,0 +1,82 @@
+@import '/src/app/scss/mixin';
+@import '/src/app/scss/variables';
+.preHolder{
+    width: 100%;
+    @include flex_flexDirection;
+    padding-top: 110px;
+   
+    .holder{
+        padding: 6%;
+        display: flex;
+        justify-content: center;
+        .info{
+            display: flex;
+            align-self: center;
+            width: 40%;
+    p{
+        font-size: 14px;
+        line-height: 30px;
+        color: $color-black;
+        text-align: center;
+    }
+        }
+    
+        .product{
+          display: flex;
+          justify-content: center;
+          width: 30%;
+          
+        
+    img{
+       
+        width: 100%;
+    }
+        }
+       
+    }
+    .buttonDiv{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        button{
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: 1px solid $color-black;
+            outline: none;
+        }
+     
+    }
+}
+
+@media screen and (max-width:810px){
+   .preHolder{
+    padding:0 ;
+padding-top: 200px;
+  
+        .holder{
+            padding: 0;
+            .info{
+                width: 50%;
+            }
+        }
+    }
+}
+@media screen and (max-width:580px) {
+    .preHolder{
+        padding-top: 150px;
+        .holder{
+            display: block;
+            .info{
+                width: 100%;
+            }
+            .product{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                img{
+                    width: 50%;
+                }
+            }
+        }
+    }
+}

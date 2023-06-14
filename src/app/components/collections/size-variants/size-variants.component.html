@@ -1,0 +1,9 @@
+<ul>
+    <button  *ngFor="let size of selectedVariant.sizes;let i=index" 
+        (click)="selectSize( size)"
+        [ngClass]="{ 'selected':  size === selectedSizeBorder }">
+        <p>{{size}}</p>
+    </button>
+ 
+  </ul>
+  

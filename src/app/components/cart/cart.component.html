@@ -1,0 +1,4 @@
+
+<button (click)="toggleCart()" type="submit" ><span class="fa-solid fa-cart-shopping"></span></button> 
+<app-cart-items (closeCart)="onCloseCart()" *ngIf="showCartItems"></app-cart-items>
+

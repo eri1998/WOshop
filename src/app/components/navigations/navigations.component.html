@@ -1,0 +1,20 @@
+<ul>
+  <li *ngFor="let items of navLinks;let i=index" 
+      (mouseenter)="startShowNewElement(i); showDropMenu(i,items.id); "
+      (mouseleave)="startHideNewElement(); hideDropMenu()" >
+    
+<a [class.span]="items.name === 'SALE'"
+   [routerLink]="isFirstGroup(items.id) ? items.link + '/' + items.id : items.link">
+  {{ items.name }}
+</a>
+
+    <div *ngIf="showNewElement === i"
+         [ngClass]="{'showLine': underline, 'reverseLine': underlineReverse}"></div>
+
+         <div (mouseenter)="usao()" (mouseleave)="izasao()"  *ngIf="items.id === 4 && condition">
+          <app-drop-menu [ngClass]="dropMenu ? 'dropMenu':'dropMenuUn'"></app-drop-menu>
+        </div>
+        
+  </li>
+
+</ul>

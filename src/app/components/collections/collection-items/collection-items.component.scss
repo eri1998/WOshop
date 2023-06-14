@@ -1,0 +1,53 @@
+@import '/src/app/scss/mixin';
+@import '/src/app/scss/variables';
+
+  
+    .productHolder{
+        width: 100%;
+        .cartAndLikeDiv{
+            @include flex-justifyContent;
+            width: 100%;
+            .cartIcon{
+                margin-top: 15px;
+                padding: 10px 20px;
+                border-radius: 20px;
+              
+                border: 1px solid $color-black;
+                outline: none;
+                cursor: pointer;
+            }
+            .heartPulse{
+                width: 30px;
+                height: $font-size-xl;
+                margin-top: 18px;
+                cursor: pointer;
+                background-color:  $color-black;
+                border-radius: 50%;
+                border: 2px solid  $color-black;
+                color: $color-primaryOrange;
+                span{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+   
+       
+            h1{
+                
+                font-size: 14px;
+                text-align: center;
+            }
+      
+    
+
+   
+
+
+
+
+@media screen and (max-width:1047px) {
+    h1{
+        font-size: 12px;
+    }
+}

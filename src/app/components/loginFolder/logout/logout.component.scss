@@ -1,0 +1,17 @@
+@import '/src/app/scss/mixin';
+@import '/src/app/scss/variables';
+.logout {
+   @include flex-alignItems;
+    justify-content: center;
+
+    button {
+        padding:15px 12px;
+        width: 40%;
+        border-radius: 50px;
+        font-size: 20px;
+        background-color:$color-white;
+        border: 1px solid $color-black;
+        outline: none;
+        cursor: pointer;
+    }
+}

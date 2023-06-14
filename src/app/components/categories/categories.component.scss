@@ -1,0 +1,95 @@
+@import '/src/app/scss/variables';
+@import '/src/app/scss/mixin';
+:host{
+    width: 30%;
+    padding-top: 110px;
+}
+h2{
+    margin: 0 6%;
+    margin-bottom: 20px;
+}
+.holder{
+    border: 2px solid $color-green;
+    border-radius: 15%;
+    width: 80%;
+    margin: 0 6%;
+    padding: 0 5%;
+    @include flex-justifyContent;
+    
+    .categoryDiv{
+        display: flex;
+        padding: 2%;
+        width: 100%;
+        button{
+            border-radius: 15%;
+            padding: 5px 10px;
+        }
+            ul{
+                list-style-type: none;
+                
+            }
+            
+    }
+    .priceFilter{
+        padding: 2%;
+        display: flex;
+          label{
+           align-self: center;
+        }
+        input{
+            border-radius: 15%;
+            width: 60px;
+            height: 30px;
+            text-align: center;
+        
+        }
+    }
+  
+}
+.btnReturnAllDiv{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    button{
+        border-radius: 15%;
+        padding: 5px 10px;
+    }
+}
+
+
+@media screen and (max-width:810px) {
+    h2{
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width:710px) {
+    .holder{
+        width: 100%;
+        margin: 0;
+        .categoryDiv{
+           .button{
+            padding: 0;
+           }
+        }
+    }
+}
+@media screen and (max-width:556px) {
+    .holder{
+        flex-direction: column;
+        .categoryDiv{
+            width: 100%;
+            justify-content: space-around;
+            .button{
+                width: 100%;
+               
+            }
+        }
+        .priceFilter{
+            width: 100%;
+            justify-content: center;
+        }
+    }
+}

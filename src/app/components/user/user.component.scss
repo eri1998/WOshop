@@ -1,0 +1,96 @@
+@import '/src/app/scss/mixin';
+@import '/src/app/scss/variables';
+button{
+    padding:$font-size-s;
+    background-color: transparent;
+    border: none;
+    outline: 0;
+    span{
+      font-size: 20px;
+      color: $color-primaryOrange;
+    }
+}
+
+    .overlay-background {
+       position: fixed;
+       left: 0;
+       right: 0;
+       top: 0;
+       bottom: 0;
+       
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 9998;
+
+
+
+        div{
+            position : fixed;
+            z-index: 9999;
+            top : 55%;
+            left : 49%;
+            transform :translate(-50%,-50%);
+            @include flex_flexDirection;
+            width: 40%;
+            background-color: $color-white;
+            border: 3px solid  $color-gray;
+            padding: 25px 35px;
+            pointer-events: auto;
+            .span{
+                border: 1px solid $color-black;
+                color: $color-red;
+                width: 30px;
+                border-radius: 50%;
+                font-size: 20px;
+                align-self: flex-end;
+            }
+        a{
+            text-decoration: none;
+            color: $color-black;
+            font-size: $font-size-l;
+            font-weight: bold;
+            padding: 20px 0;
+        
+        }
+        p{
+            font-size: 13px;
+            padding: 20px 0;
+        }
+            h3{
+                font-size: 26px;
+                padding: 24px 12px;
+                text-align: center;
+            }
+        }        
+      }
+      
+      .overlay-background ~ * {
+        pointer-events: none;
+      }
+
+  @media screen and (max-width:1100px) {
+    .overlay-background{
+        div{
+            width: 60%;
+           
+         }
+    }
+    
+  }
+  @media screen and (max-width:700px) {
+    .overlay-background{
+        div{
+            width: 80%;
+           
+         }
+    }
+    
+  }
+  @media screen and (max-width:575px) {
+    .overlay-background{
+        div{
+            width: 100%;
+           
+         }
+    }
+    
+  }

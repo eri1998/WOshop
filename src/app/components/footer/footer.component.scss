@@ -1,0 +1,11 @@
+@import '/src/app/scss/mixin';
+@import '/src/app/scss/variables';
+
+.container{
+  border-top: 5px solid $color-white;
+  padding: 0 15%;
+  width: 100%;
+  background-color:$color-black;
+ 
+ 
+}
